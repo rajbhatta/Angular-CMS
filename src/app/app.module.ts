@@ -20,7 +20,9 @@ import { FooterComponent } from './cms/footer/footer.component';
 import { ChartsModule } from 'ng2-charts';
 import { BodyComponent } from './cms/body/body.component';
 import { LoginComponent } from './cms/login/login.component';
-import { SignupComponent } from './cms/user/signup/signup.component';
+import { SignupComponent } from './cms/user/signin/signup.component';
+import { UserprofileComponent } from './cms/user/userprofile/userprofile.component';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { SignupComponent } from './cms/user/signup/signup.component';
     FooterComponent,
     BodyComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    UserprofileComponent
   ],
   imports: [
     BrowserModule,
