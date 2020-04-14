@@ -10,17 +10,21 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav'; 
 import {MatListModule} from '@angular/material/list'; 
 import {MatButtonModule} from '@angular/material/button';
-import { HeaderComponent } from './header/header.component'; 
+import { HeaderComponent } from './cms/header/header.component'; 
 import {MatGridListModule} from '@angular/material/grid-list';
-import { FooterComponent } from './footer/footer.component'; 
+import { FooterComponent } from './cms/footer/footer.component'; 
 
 import { ChartsModule } from 'ng2-charts';
+import { BodyComponent } from './cms/body/body.component';
+import { LoginComponent } from './cms/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    BodyComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
