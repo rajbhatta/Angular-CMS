@@ -10,6 +10,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav'; 
 import {MatListModule} from '@angular/material/list'; 
 import {MatButtonModule} from '@angular/material/button';
+import {MatStepperModule} from '@angular/material/stepper';
+
 import { HeaderComponent } from './cms/header/header.component'; 
 import {MatGridListModule} from '@angular/material/grid-list';
 import { FooterComponent } from './cms/footer/footer.component'; 
@@ -17,6 +19,7 @@ import { FooterComponent } from './cms/footer/footer.component';
 import { ChartsModule } from 'ng2-charts';
 import { BodyComponent } from './cms/body/body.component';
 import { LoginComponent } from './cms/login/login.component';
+import { SignupComponent } from './cms/user/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,8 @@ import { LoginComponent } from './cms/login/login.component';
     HeaderComponent,
     FooterComponent,
     BodyComponent,
-    LoginComponent
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +37,7 @@ import { LoginComponent } from './cms/login/login.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
+    MatStepperModule,
     MatButtonModule,
     MatIconModule,
     MatGridListModule,

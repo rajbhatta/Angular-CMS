@@ -1,0 +1,4 @@
+ul.stepper.horizontal .step .step-title::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+  }
