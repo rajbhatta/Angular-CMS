@@ -1,27 +1,58 @@
 <app-header></app-header>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <mat-horizontal-stepper>
+                <mat-step label="Personal Information">
+                   
+                    <form class="example-form">
+                    <div class="row">
+                        <mat-form-field>
+                            <input matInput placeholder="Enter Name">
+                          </mat-form-field>
+                    </div>
+                    </form>
+                 <div> 
+                    <button mat-button matStepperNext class="btn btn-success signinBtnNext">Next</button>
+                </div>
+                </mat-step>
+            
+                <mat-step label="Contact Information">
+                    <form class="example-form">
+                        <div class="row">
+                            <mat-form-field>
+                                <input matInput placeholder="Enter Phone">
+                              </mat-form-field>
+                        </div>
+    
+                        <div class="row">
+                              <mat-form-field>
+                                <input matInput placeholder="Enter Email">
+                              </mat-form-field>
+                        </div>
+                        </form>
 
-<mat-horizontal-stepper>
-    <mat-step label="Personal Information">
-     <p>Shipping Address Details</p>
-     <div>
-        <button mat-button matStepperNext class="btn btn-success">Next</button>
+
+                  <div>
+                      <button mat-button matStepperPrevious class="btn btn-info signinBtnBack">Back</button>
+                      <button mat-button matStepperNext class="btn btn-success signinBtnNext">Next</button>
+                  </div>
+                </mat-step>
+            
+                <mat-step label="Complete Profile">
+                  <p>You are now done.</p>
+
+
+                  <div>
+                    <button mat-button matStepperPrevious class="btn btn-info signinBtnBack">Back</button>
+                    <button mat-button class="btn btn-warning singinBtnSaveAsDraft">Save as Draft</button>
+                    <button mat-button class="btn btn-secondary signinBtnSubmit">Submit</button>
+                    <button mat-button class="btn btn-danger">Reset</button>
+                  </div>
+                </mat-step>
+            
+              </mat-horizontal-stepper>
+        </div>
     </div>
-    </mat-step>
+</div>
 
-    <mat-step label="Contact Information">
-      Billing Address
-      <div>
-          <button mat-button matStepperPrevious class="btn btn-info">Back</button>
-          <button mat-button matStepperNext class="btn btn-success">Next</button>
-      </div>
-    </mat-step>
-
-    <mat-step label="Complete Profile">
-      <p>You are now done.</p>
-      <div>
-        <button mat-button matStepperPrevious class="btn btn-info">Back</button>
-        <button mat-button class="btn btn-danger">Reset</button>
-      </div>
-    </mat-step>
-
-  </mat-horizontal-stepper>

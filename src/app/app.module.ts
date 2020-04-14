@@ -11,6 +11,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list'; 
 import {MatButtonModule} from '@angular/material/button';
 import {MatStepperModule} from '@angular/material/stepper';
+import {MatInputModule} from '@angular/material/input';
 
 import { HeaderComponent } from './cms/header/header.component'; 
 import {MatGridListModule} from '@angular/material/grid-list';
@@ -41,7 +42,8 @@ import { SignupComponent } from './cms/user/signup/signup.component';
     MatButtonModule,
     MatIconModule,
     MatGridListModule,
-    ChartsModule
+    ChartsModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
