@@ -1,0 +1,15 @@
+.page-title h1
+{
+    font-size: 26px;
+    margin-top: 5px;
+    color: #2588be;
+    font-weight: 700;
+}
+
+.page-title h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-top: 0;
+    color: #2588be;
+    text-transform: uppercase;
+}
