@@ -1,0 +1,26 @@
+.userProfileHolder
+{
+    background-color: aquamarine;
+     padding: 10px;
+}
+
+.userProfileHolder h3{
+    color: #2588be;
+}
+
+.userContentHolder
+{
+    background-color: silver;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.userContentHolder h3
+{
+    font-weight: bold;
+}
+
+.mic-info i{
+    margin: 5px;
+}
