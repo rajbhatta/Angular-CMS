@@ -1,0 +1,76 @@
+<app-header></app-header>
+<br/>
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-sm-3">
+              <app-leftnav></app-leftnav>
+        </div>
+
+
+        <div class="col-sm-9">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Library</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Data</li>
+                </ol>
+            </nav>
+
+            <div class="userContentHolder">
+                <h3>Post your article</h3>
+
+                <form>
+                    <div class="form-group row">
+                      <label for="inputEmail3" class="col-sm-2 col-form-label">Title</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Enter title of article">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="inputEmail3" class="col-sm-2 col-form-label">Category</label>
+                      <div class="col-sm-10">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Java</option>
+                          <option>PL/SQL</option>
+                          <option>Spring</option>
+                          <option>Angular JS</option>
+                          <option>React Js</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="inputEmail3" class="col-sm-2 col-form-label">Subcategory</label>
+                      <div class="col-sm-10">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Java</option>
+                          <option>PL/SQL</option>
+                          <option>Spring</option>
+                          <option>Angular JS</option>
+                          <option>React Js</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Content</label>
+                        <div class="col-sm-10">
+                            <ckeditor></ckeditor>
+                        </div>
+                      </div>
+                    
+                    <div class="form-group row">
+                      <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Submit Article</button>
+                      </div>
+                    </div>
+                  </form>
+
+            </div>
+        </div>
+
+    </div>
+</div>

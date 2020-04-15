@@ -79,29 +79,8 @@
     text-align: center;
 }
 
-.postActionHolder
-{
-    text-align: center !important;
-}
-
 .userProfileBtn
 {
     padding: 5px;
-    font-weight: bold;
-}
-
-.trafficLightPost
-{
-    color:green;
-    margin-right: 20px;
-}
-
-.deletePost
-{
-    color:red;
-}
-
-.actionText
-{
     font-weight: bold;
 }
