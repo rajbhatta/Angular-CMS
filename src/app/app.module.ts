@@ -10,17 +10,33 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav'; 
 import {MatListModule} from '@angular/material/list'; 
 import {MatButtonModule} from '@angular/material/button';
-import { HeaderComponent } from './header/header.component'; 
+import {MatStepperModule} from '@angular/material/stepper';
+import {MatInputModule} from '@angular/material/input';
+
+import { HeaderComponent } from './cms/header/header.component'; 
 import {MatGridListModule} from '@angular/material/grid-list';
-import { FooterComponent } from './footer/footer.component'; 
+import { FooterComponent } from './cms/footer/footer.component'; 
+import { CKEditorModule } from 'ckeditor4-angular';
 
 import { ChartsModule } from 'ng2-charts';
+import { BodyComponent } from './cms/body/body.component';
+import { LoginComponent } from './cms/login/login.component';
+import { SignupComponent } from './cms/user/signin/signup.component';
+import { UserprofileComponent } from './cms/user/userprofile/userprofile.component';
+import { PostarticleComponent } from './cms/user/postarticle/postarticle.component';
+import { LeftnavComponent } from './cms/user/leftnav/leftnav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    BodyComponent,
+    LoginComponent,
+    SignupComponent,
+    UserprofileComponent,
+    PostarticleComponent,
+    LeftnavComponent
   ],
   imports: [
     BrowserModule,
@@ -29,10 +45,13 @@ import { ChartsModule } from 'ng2-charts';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
+    MatStepperModule,
     MatButtonModule,
     MatIconModule,
     MatGridListModule,
-    ChartsModule
+    ChartsModule,
+    CKEditorModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
