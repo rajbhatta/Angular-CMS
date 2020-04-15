@@ -11,8 +11,8 @@ const routes: Routes = [
   {path:'user/signin', component:SignupComponent},
   {path:'user/profile', component:UserprofileComponent},
   {path:'details', component:BodyComponent},
-  {path:'user/post', component:PostarticleComponent}
-
+  {path:'user/post', component:PostarticleComponent},
+  
 ];
 
 @NgModule({
