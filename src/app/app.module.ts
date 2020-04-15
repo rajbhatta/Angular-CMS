@@ -22,6 +22,10 @@ import { BodyComponent } from './cms/body/body.component';
 import { LoginComponent } from './cms/login/login.component';
 import { SignupComponent } from './cms/user/signin/signup.component';
 import { UserprofileComponent } from './cms/user/userprofile/userprofile.component';
+import { PostarticleComponent } from './cms/user/postarticle/postarticle.component';
+import { LeftnavComponent } from './cms/user/leftnav/leftnav.component';
+import { RightcontentComponent } from './cms/user/rightcontent/rightcontent.component';
+import { ContentrightComponent } from './cms/user/contentright/contentright.component';
 
 
 @NgModule({
@@ -32,7 +36,11 @@ import { UserprofileComponent } from './cms/user/userprofile/userprofile.compone
     BodyComponent,
     LoginComponent,
     SignupComponent,
-    UserprofileComponent
+    UserprofileComponent,
+    PostarticleComponent,
+    LeftnavComponent,
+    RightcontentComponent,
+    ContentrightComponent
   ],
   imports: [
     BrowserModule,
