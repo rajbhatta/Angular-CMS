@@ -26,6 +26,7 @@ import { UserprofileComponent } from './cms/user/userprofile/userprofile.compone
 import { PostarticleComponent } from './cms/user/postarticle/postarticle.component';
 import { LeftnavComponent } from './cms/user/leftnav/leftnav.component';
 import { HomeComponent } from './view/home/home.component';
+import { DetailsComponent } from './view/home/details/details.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { HomeComponent } from './view/home/home.component';
     UserprofileComponent,
     PostarticleComponent,
     LeftnavComponent,
-    HomeComponent
+    HomeComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
