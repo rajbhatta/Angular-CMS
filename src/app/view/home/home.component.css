@@ -1,0 +1,249 @@
+.jumbotron{margin-bottom: 0; position: relative;}
+
+.parallax {
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Paragraph for Parallax Section */ 
+.parallax p {
+font-size: 24px;
+color:#f5f5f5;
+text-align: center;
+line-height: 40px;
+}
+ 
+/* Heading for Parallax Section */ 
+.parallax h2 {
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+font-size: 20px;
+text-align: center;
+padding-top: 60px;
+}
+
+#parallax-static {
+    background-image: url("./../../../assets/img/bg.gif");
+}
+
+#parallax-slightly-moving {
+    background-image: url("./../../../assets/img/bg.gif");
+}
+#parallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+  transform: translateZ(-1px) scale(1.5);
+  /* Force the background image to fill the whole element. */
+  background-size: 100%;
+  /* Keep the image from overlapping sibling elements. */
+  z-index: -1;
+}
+
+
+.smart_search form {
+  background-color: hsla(0,0%,100%,.42);
+  padding: 8px;
+}
+
+.smart_search form {
+  position: relative;
+  max-width: 650px;
+  border-radius: 2px;
+  margin: 20px auto 0;
+  padding-right: 108px;
+}
+
+.ui-widget {
+  font-size: 1em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.smart_search form .btn {
+  right: 8px;
+  height: 45px;
+  width: 100px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.smart_search form .btn, .smart_search form .nd-map-pin2 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+}
+
+.smart_search form .btn {
+  padding: 4.5px;
+  border-radius: 0 3px 3px 0;
+  text-transform: none;
+  font-weight: 400;
+  border: 0;
+}
+
+
+.item-wrap {
+  padding-left: 65px;
+  padding-right: 16px;
+}
+
+.item-wrap i {
+  font-size: 55px;
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.item-wrap p {
+  color: white;
+}
+
+.item-wrap h4 {
+  color: white;
+  font-weight: bold;
+}
+
+
+.TopCourseHolder h2
+{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+/*  Code for Latest Courses */
+#t-cards {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #E3E2DF;    
+
+}
+
+#t-cardsCaption {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color:#7DC2AD;    
+
+}
+
+/********************************/
+/*          Panel cards         */
+/********************************/
+.panel.panel-card {
+  position: relative;
+  height: 241px;
+  border: none;
+  overflow: hidden;
+}
+.panel.panel-card .panel-heading {
+  position: relative;
+  z-index: 2;
+  height: 120px;
+  border-bottom-color: #fff;
+  overflow: hidden;
+  
+  -webkit-transition: height 600ms ease-in-out;
+          transition: height 600ms ease-in-out;
+}
+.panel.panel-card .panel-heading img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 120%;
+  
+  -webkit-transform: translate3d(-50%,-50%,0);
+          transform: translate3d(-50%,-50%,0);
+}
+.panel.panel-card .panel-heading button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 3;
+}
+.panel.panel-card .panel-figure {
+  position: absolute;
+  top: auto;
+  left: 50%;
+  z-index: 3;
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 1;
+  -webkit-box-shadow: 0 0 0 3px #fff;
+          box-shadow: 0 0 0 3px #fff;
+  
+  -webkit-transform: translate3d(-50%,-50%,0);
+          transform: translate3d(-50%,-50%,0);
+  
+  -webkit-transition: opacity 400ms ease-in-out;
+          transition: opacity 400ms ease-in-out;
+}
+
+.panel.panel-card .panel-body {
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+  -webkit-transition: padding 400ms ease-in-out;
+          transition: padding 400ms ease-in-out;
+} 
+
+.panel.panel-card .panel-thumbnails {
+  padding: 0 15px 20px;
+}
+.panel-thumbnails .thumbnail {
+  width: 60px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+} 
+
+
+.panel.panel-card:hover .panel-heading {
+  height: 55px;
+  
+  -webkit-transition: height 400ms ease-in-out;
+          transition: height 400ms ease-in-out;
+}
+.panel.panel-card:hover .panel-figure {
+  opacity: 0;
+  
+  -webkit-transition: opacity 400ms ease-in-out;
+          transition: opacity 400ms ease-in-out;
+}
+.panel.panel-card:hover .panel-body {
+  padding-top: 20px;
+  
+  -webkit-transition: padding 400ms ease-in-out;
+          transition: padding 400ms ease-in-out;
+}
+
+.courseHolde
+{
+  background: white;
+}
+/* End of code for latest courses */
