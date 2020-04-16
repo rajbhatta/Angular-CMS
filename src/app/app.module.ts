@@ -19,26 +19,27 @@ import { FooterComponent } from './cms/footer/footer.component';
 import { CKEditorModule } from 'ckeditor4-angular';
 
 import { ChartsModule } from 'ng2-charts';
-import { BodyComponent } from './cms/body/body.component';
 import { LoginComponent } from './cms/login/login.component';
 import { SignupComponent } from './cms/user/signin/signup.component';
 import { UserprofileComponent } from './cms/user/userprofile/userprofile.component';
 import { PostarticleComponent } from './cms/user/postarticle/postarticle.component';
 import { LeftnavComponent } from './cms/user/leftnav/leftnav.component';
 import { HomeComponent } from './view/home/home.component';
+import { DetailsComponent } from './view/home/details/details.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    BodyComponent,
     LoginComponent,
     SignupComponent,
     UserprofileComponent,
     PostarticleComponent,
     LeftnavComponent,
-    HomeComponent
+    HomeComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
