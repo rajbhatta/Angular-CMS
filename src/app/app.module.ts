@@ -27,6 +27,7 @@ import { PostarticleComponent } from './cms/user/postarticle/postarticle.compone
 import { LeftnavComponent } from './cms/user/leftnav/leftnav.component';
 import { HomeComponent } from './view/home/home.component';
 import { DetailsComponent } from './view/home/details/details.component';
+import { DetailsleftnavComponent } from './view/home/details/detailsleftnav/detailsleftnav.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { DetailsComponent } from './view/home/details/details.component';
     PostarticleComponent,
     LeftnavComponent,
     HomeComponent,
-    DetailsComponent
+    DetailsComponent,
+    DetailsleftnavComponent
   ],
   imports: [
     BrowserModule,

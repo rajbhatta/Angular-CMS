@@ -1,0 +1,36 @@
+.tutorialTitleHolder
+{
+    background: #7DC2AD;
+    padding:10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tutorialLinkHolder
+{
+   margin-left: 5px;
+   padding: 10px;
+}
+
+.tutorialLinkHolder i{
+    color:red;
+}
+
+.tutorialResourceHolder p
+{
+   float: left;
+   width: 20%;
+   margin-top: 10px;
+   margin-left: 10px;
+
+}
+
+.fa-github
+{
+    color:black;
+}
+
+.fa-youtube
+{
+    color:#bb0000;
+}
