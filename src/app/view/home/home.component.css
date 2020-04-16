@@ -1,0 +1,116 @@
+.jumbotron{margin-bottom: 0; position: relative;}
+
+.parallax {
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Paragraph for Parallax Section */ 
+.parallax p {
+font-size: 24px;
+color:#f5f5f5;
+text-align: center;
+line-height: 40px;
+}
+ 
+/* Heading for Parallax Section */ 
+.parallax h2 {
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+font-size: 20px;
+text-align: center;
+padding-top: 60px;
+}
+
+#parallax-static {
+    background-image: url("./../../../assets/img/bg.gif");
+}
+
+#parallax-slightly-moving {
+    background-image: url("./../../../assets/img/bg.gif");
+}
+#parallax-slightly-moving::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+  transform: translateZ(-1px) scale(1.5);
+  /* Force the background image to fill the whole element. */
+  background-size: 100%;
+  /* Keep the image from overlapping sibling elements. */
+  z-index: -1;
+}
+
+
+.smart_search form {
+  background-color: hsla(0,0%,100%,.42);
+  padding: 8px;
+}
+
+.smart_search form {
+  position: relative;
+  max-width: 650px;
+  border-radius: 2px;
+  margin: 20px auto 0;
+  padding-right: 108px;
+}
+
+.ui-widget {
+  font-size: 1em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.smart_search form .btn {
+  right: 8px;
+  height: 45px;
+  width: 100px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.smart_search form .btn, .smart_search form .nd-map-pin2 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+}
+
+.smart_search form .btn {
+  padding: 4.5px;
+  border-radius: 0 3px 3px 0;
+  text-transform: none;
+  font-weight: 400;
+  border: 0;
+}
+
+
+.item-wrap {
+  padding-left: 65px;
+  padding-right: 16px;
+  margin: 10px;
+}
+
+.item-wrap i {
+  font-size: 55px;
+  color: #2588be;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

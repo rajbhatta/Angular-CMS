@@ -25,6 +25,7 @@ import { SignupComponent } from './cms/user/signin/signup.component';
 import { UserprofileComponent } from './cms/user/userprofile/userprofile.component';
 import { PostarticleComponent } from './cms/user/postarticle/postarticle.component';
 import { LeftnavComponent } from './cms/user/leftnav/leftnav.component';
+import { HomeComponent } from './view/home/home.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { LeftnavComponent } from './cms/user/leftnav/leftnav.component';
     SignupComponent,
     UserprofileComponent,
     PostarticleComponent,
-    LeftnavComponent
+    LeftnavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
