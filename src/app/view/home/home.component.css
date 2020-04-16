@@ -108,11 +108,21 @@ padding-top: 60px;
 
 .item-wrap i {
   font-size: 55px;
-  color: #2588be;
+  color: white;
   position: absolute;
   left: 0;
   top: 0;
 }
+
+.item-wrap p {
+  color: white;
+}
+
+.item-wrap h4 {
+  color: white;
+  font-weight: bold;
+}
+
 
 .TopCourseHolder h2
 {
@@ -129,6 +139,13 @@ padding-top: 60px;
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: #f9f9f9;    
+
+}
+
+#t-cardsCaption {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color:#1e709c;    
 
 }
 
